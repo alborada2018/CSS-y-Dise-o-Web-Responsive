@@ -1,0 +1,231 @@
+@font-face {
+	font-family:DancingScript-Regular;
+	src:url(../fuentes/DancingScript-Regular.ttf)
+			}
+
+* {
+	box-sizing: border-box;
+	
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.titulo {
+	background-color: #5b7989;
+	float: left;
+    padding: 15px;
+	box-sizing: border-box;
+	width: 50%;
+	text-shadow: 3px 3px 5px #02010a;
+	
+	border-radius: 10px 0px 0px 0px;
+-moz-border-radius: 10px 0px 0px 0px;
+-webkit-border-radius: 10px 0px 0px 0px;
+border: 2px solid #5b7989;
+	
+}
+.titulomenu {
+	background-color: #5b7989;
+	float: left;
+    padding: 15px;
+	width: 50%;
+	
+	border-radius: 0px 10px 0px 0px;
+-moz-border-radius: 0px 10px 0px 0px;
+-webkit-border-radius: 0px 10px 0px 0px;
+border: 2px solid #5b7989;
+	
+	}
+
+/*inicio css para opcionesd menu*/
+
+
+.titulomenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.titulomenu li {
+	float:right;
+    padding: 31px;
+    background-color: #5b7989;
+    color: #ffffff;
+    /*box-shadow: 0 1px 3px rgba(10,10,10,10.12), 0 1px 2px rgba(10,10,10,10.24);*/
+}
+
+.titulomenu li:hover:not(.active) {
+	border-bottom-color:#971517;
+	color:#F0F70D;
+   
+}
+
+.titulomenu .active {
+    background-color: #4CAF50;
+}
+
+
+
+
+/*inicio propiedades imagen izquierda y derecha*/
+
+
+
+.row2 {
+	float: left;
+	background-color: #d5c75f;
+	width: 100%;
+	border: 1px;
+	text-align: center;
+}
+
+.imageni1 {
+	padding: 10px;
+	padding-left: 80px;
+	float: left;
+	-webkit-filter: blur(10px);
+	filter: blur(10px);	
+	
+	
+	
+}
+
+
+	
+
+.imagenc1 {
+	padding: 10px;
+	padding-left: 50px;
+	float: left;
+	-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+	
+}
+
+.imagend1 {
+	padding: 10px;
+	padding-left: 50px;
+	float: left;
+	-webkit-filter: sepia(90%);
+
+}
+
+.imageni2 {
+	padding: 10px;
+	padding-left: 80px;
+	float: left;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	
+}
+.imagenc2 {
+	padding: 10px;
+	padding-left: 50px;
+	float: left;
+	
+}
+.imagend2 {
+	padding: 10px;
+	padding-left: 50px;
+	float: left;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*codigo para pie de pagina*/
+.row3 {
+	float: left;
+	align-content: center;
+	width: 100%;
+	background-color: #C6d5c5;
+	
+border-radius: 0px 0px 10px 10px;
+-moz-border-radius: 0px 0px 10px 10px;
+-webkit-border-radius: 0px 0px 10px 10px;
+border: 2px solid #C6d5c5;
+	
+		
+}
+
+.texto1 {
+	float: left;
+	width: 25%
+}
+.texto2 {
+	float: left;
+	width: 25%
+}
+.texto3 {
+	float: left;
+	width: 25%
+}
+.texto4 {
+	float: left;
+	width: 25%
+}
+
+
+html {
+    font-family:DancingScript-Regular;
+}
+.header {
+    background-color: #5b7989;
+    color: #ffffff;
+    
+}
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.titulo{width: 50%;}
+.titulomenu{width: 50%;}
+.imageni1{width: 30%;} 
+.imagenc1{width: 30%;} 
+.imagend1{width: 30%;} 
+.imageni2{width: 30%;} 
+.imagenc2{width: 30%;} 
+.imagend2{width: 30%;} 
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+	[class*="titulo"] {
+        width: 100%;
+    }
+	[class*="imagen"] {
+        width: 100%;
+    }
+	[class*="texto"] {
+        width: 100%;
+    }
+	
+}
